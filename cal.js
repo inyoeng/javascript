@@ -6,7 +6,7 @@ function createCal() {
     let firstDay = now.getDay();//첫째날의 요일정보: 0~6
     console.log(firstDay);
 
-    let today = new Date(userYear, userMonth, 0); //2021,6,0 => 6월의 마지막날 -- 2021,7,1=>6월의 마지막날 +1일(다음달 첫 날)
+    let today = new Date(userYear, userMonth, 0); //2021,6,0 => 6월의 마지막날 -- 2021,7,1=>7월의 마지막날 +1일(다음달 첫 날)
     let year = today.getFullYear();
     let month = today.getMonth() + 1; //1월이 0부터 시작해서 
     let date = today.getDate();
